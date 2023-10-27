@@ -5,5 +5,5 @@
 /* header */
 @import './src/assets/css/home/header/header.css';
 /* main */
-@import './src/assets/css/home/header/header.css';
-@import './src/assets/css/home/main/main.css';
+@import './src/assets/css/home/main/inicio/main.css';
+@import './src/assets/css/home/main/section-info/info.css';

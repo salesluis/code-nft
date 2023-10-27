@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 130px;
 }
 
 .main-text h1 {
@@ -23,7 +24,7 @@
   flex-direction: column;
   width: 592px;
   height: 481px;
-  background: url('../../../img/background-topo.png');
+  background: url('../../../../img/bg/background-topo.png');
   background-size: cover;
   position: relative;
 }
@@ -80,6 +81,9 @@ flex-direction: column;
 }
 
 @media(max-width:700px){
+  .main-section{
+    margin-bottom: 40px;
+  }
   .header-menu{
     display: none;
   }
