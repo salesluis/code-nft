@@ -1,3 +1,9 @@
+/* global */
 @import './src/assets/css/global/global.css';
+/* componentes */
 @import './src/assets/css/components/components.css';
+/* header */
 @import './src/assets/css/home/header/header.css';
+/* main */
+@import './src/assets/css/home/header/header.css';
+@import './src/assets/css/home/main/main.css';
