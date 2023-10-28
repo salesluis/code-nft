@@ -1,0 +1,30 @@
+.colecionadores-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.colecionadores-info{
+  display: grid;
+  grid-template-columns: 1fr 140px 140px 140px;
+  grid-template-areas:
+  "profile volume piso items"
+;
+}
+.profile{
+  grid-area: profile;
+}
+
+.volume{
+  grid-area: volume;
+}
+.piso{
+  grid-area: piso;
+}
+.items{
+  grid-area: items;
+}
+
+.profile img{
+  width: 48px;
+}
