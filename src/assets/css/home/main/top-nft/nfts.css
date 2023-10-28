@@ -1,0 +1,18 @@
+.nft-text{
+  text-align: center;
+  margin: 80px 0;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.top-nfts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.top-nfts img{
+  max-width: 384px;
+  height: 450px;
+}
