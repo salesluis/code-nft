@@ -1,5 +1,6 @@
 .colecionadores-text{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 margin-bottom: 32px;
   padding-bottom: 24px;
@@ -74,5 +75,26 @@ margin-bottom: 32px;
 
 .items{
   grid-area: items;
+}
+
+@media(max-width:700px){
+  .colecionadores-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas:
+    "profile volume"
+    "piso items"
+  ;
+  justify-items: center;
+}
+.volume h3,
+.volume-lista,
+.piso h3,
+.piso-lista,
+.items h3,
+.items-lista{
+  text-align: left;
+  margin-bottom: 100px;
+}
 }
 
