@@ -1,7 +1,11 @@
 .colecionadores-text{
   display: flex;
   justify-content: space-between;
+margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom:1px solid ;
 }
+
 
 
 .colecionadores-info{
@@ -11,20 +15,64 @@
   "profile volume piso items"
 ;
 }
-.profile{
-  grid-area: profile;
-}
-
-.volume{
-  grid-area: volume;
-}
-.piso{
-  grid-area: piso;
-}
-.items{
-  grid-area: items;
-}
 
 .profile img{
   width: 48px;
 }
+
+.volume h3,
+.volume-lista,
+.piso h3,
+.piso-lista,
+.items h3,
+.items-lista{
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+.profile{
+  grid-area: profile;
+}
+.profile-lista,
+.piso-lista,
+.items-lista{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+
+.profile-lista li{
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
+.profile-lista li > span{
+  margin: 0 22px;
+}
+
+
+.volume{
+  grid-area: volume;
+}
+.volume-lista{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.volume-lista li > span,
+.piso-lista li > span{
+  color: var(--yellow);
+}
+
+
+.piso{
+  grid-area: piso;
+}
+
+
+.items{
+  grid-area: items;
+}
+

@@ -16,3 +16,7 @@
   max-width: 384px;
   height: 450px;
 }
+
+.top-nfts img:last-child{
+  margin-bottom: 100px;
+}
