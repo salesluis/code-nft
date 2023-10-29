@@ -9,3 +9,6 @@
 @import './src/assets/css/home/main/section-info/info.css';
 @import './src/assets/css/home/main/top-nft/nfts.css';
 @import './src/assets/css/home/main/colecionadores/colecionadores.css';
+@import './src/assets/css/home/main/perguntas/perguntas.css';
+/* footer */
+@import './src/assets/css/home/footer/footer.css'

@@ -1,0 +1,9 @@
+
+
+.pergunta{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  font-size: 1.25rem;
+  padding: 40px 0;
+  border-bottom:1px solid var(--border) ;
+}

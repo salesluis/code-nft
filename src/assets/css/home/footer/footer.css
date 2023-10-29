@@ -1,0 +1,15 @@
+.redes-lista {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 30px 0;
+}
+
+.redes-lista > li > a > img {
+  border: 1px solid var(--border);
+  padding: 24px;
+  border-radius: 16px;
+}
+.redes-lista > li > a > img:hover {
+  background: var(--bg-secondary);
+}

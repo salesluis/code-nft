@@ -9,8 +9,8 @@
   --text-light: #ffffff;
   --text-subtitle: rgba(255, 255, 255, 0.5);
   --yellow: #f7fc0e;
-  --gradient: linear-gradient(#e025ce, #4aed52, #bd24e6);
-  --pink: #e025ce;
+  --border:#bc24e61a;
+
 }
 
 * {
